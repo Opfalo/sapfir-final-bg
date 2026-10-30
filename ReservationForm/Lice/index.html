@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hotel Reservation Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300" rel="stylesheet"> 
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]--><!-- Add your site or application content here -->
+        <form id="booking-form" class="booking-form" name="form1" method="post" action="">
+            
+            
+            <div id="form-message" class="message hide">
+              <h1> Запитването Ви е Изпратено!</h1>
+               <h1> Очаквайте да се свържем с вас.</h1>
+            </div>
+            <div id="form-content" style="border: 10px solid #003366;">
+            
+            <div style="text-align:center;"> <h1> Запази час ПРОЦЕДУРИ ЛИЦЕ</h1></div>
+            <div class="group">
+                    <label for="studio">Избери Студио <span style="color: #FF0000">*</span></label>
+                    <div>
+                        <select id="studio" name="studio" class="form-control">
+<option value="-">-</option>
+<option value="София, кв. Бъкстон, ул. Майор Горталов 5">София, кв. Бъкстон, ул. Майор Горталов 5</option>
+<option value="София, жк. Студентски град, ул. Атанас Иширков 11">София, жк. Студентски град, ул. Атанас Иширков 11</option>
+
+                            
+                            
+                        </select>
+                    </div>
+                </div>
+            
+            
+          <div class="group">
+                    <label for="service">Услуга <span style="color: #FF0000">*</span></label>
+                    <div>
+                        <select id="service" name="service" class="form-control">
+<option value="-">-</option>
+<option value="Удължаване на мигли косъм по косъм - 60 лева/1 ч 30мин.">Удължаване на мигли косъм по косъм - 60 лева/1 ч 30мин.</option>
+<option value="Удължаване на мигли 3D / 4D техника - 70 лева/2 ч.">Удължаване на мигли 3D / 4D техника - 70 лева/2 ч.</option>
+<option value="Поддръжка на мигли от 1-ви до 14-ти ден - 60 лева/60мин.">Поддръжка на мигли от 1-ви до 14-ти ден - 60 лева/60мин.</option>
+<option value="Поддръжка на мигли от 14-ти до 60-ти ден - 40 лева/1 ч 30мин.">Поддръжка на мигли от 14-ти до 60-ти ден - 40 лева/1 ч 30мин.</option>
+<option value="Пробиване на уши - 25 лева/10мин.">Пробиване на уши - 25 лева/10мин.</option>
+
+                            
+                            
+                        </select>
+                    </div>
+                </div>
+             <table width="100%" border="0">
+  <tr>
+    <td width="50%"><div class="group">
+                    <label for="date-from">Дата <span style="color: #FF0000">*</span></label>
+                    <div class="addon-right">
+                        <input id="date-from" name="date-from" class="form-control" type="text">
+                        <i class="fa fa-calendar"></i>
+                    </div>
+                </div> <div class="addon-right">
+                        <input id="date-from" name="date-from"  style="display:none" class="form-control" type="text">
+                        
+                    </div></td>
+    <td width="50%"><div class="group">
+                    <label for="adults">Час <span style="color: #FF0000">*</span></label>
+                    <div>
+                        <select id="adults" name="adults" class="form-control">
+                            <option value="9:00">9:00</option>
+                            <option value="9:30">9:30</option>
+                            <option value="10:00">10:00</option>
+                            <option value="9:30">10:30</option>
+                            <option value="10:00">11:00</option>
+                            <option value="11:30">11:30</option>
+                            <option value="12:00">12:00</option>
+                            <option value="12:30">12:30</option>
+                            <option value="13:00">13:00</option>
+                            <option value="13:30">13:30</option>
+                            <option value="14:00">14:00</option>
+                            <option value="14:30">14:30</option>
+                            <option value="15:00">15:00</option>
+                            <option value="15:30">15:30</option>
+                            <option value="16:00">16:00</option>
+                            <option value="16:30">16:30</option>
+                            <option value="17:00">17:00</option>
+                            <option value="17:30">17:30</option>
+                            <option value="18:00">18:00</option>
+                            
+                        </select>
+                    </div>
+                </div></td>
+  </tr>
+   <tr>
+    <td>
+                   
+               </td>
+    <td></td>
+  </tr>
+  
+   <tr>
+    <td colspan="2">       <div class="group">
+                    <label for="name1">Три Имена <span style="color: #FF0000">*</span></label>
+                    <div><input id="name1" name="name1" class="form-control" type="text" placeholder="Три Имена"></div>
+                </div></td>
+    </tr>
+  
+  
+  <tr>
+    <td> <div class="group">
+      <label for="email">Email <span style="color: #FF0000">*</span></label>
+      <div><input id="email" name="email" class="form-control" type="email" placeholder="Email"></div>
+      </div>
+      </td>
+    <td>
+      <div class="group">
+        <label for="phone">Телефон <span style="color: #FF0000">*</span></label>
+        <div><input id="phone" name="phone" class="form-control" type="text" placeholder="Телефон за контакти"></div>
+        </div></td>
+  </tr>
+</table>
+
+                
+                
+                
+                
+               
+
+             
+                
+                
+               
+                
+                
+                <div class="group">
+                  <label for="special-requirements">Допълнителни Изисквания</label>
+                    <div><textarea id="special-requirements" name="special-requirements" class="form-control" cols="" rows="4" placeholder="Съобщение:"></textarea></div>
+              </div>
+                <p style="text-align:center; font-size:14px;">С изпращането на формата се съгласявате да предоставите Личните си данни за ползване за целта на резервацията.</p><div class="group submit">
+                
+                    <label class="empty"></label>
+                    <div><input name="submit" type="submit" value="ЗАПАЗИ ЧАС"/></div>
+                </div>
+            </div>
+            <div id="form-loading" class="hide"><i class="fa fa-circle-o-notch fa-spin"></i></div>
+        </form>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>     
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
